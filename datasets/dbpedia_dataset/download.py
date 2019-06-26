@@ -31,28 +31,28 @@ def save_response_content(response, destination):
 
 if __name__ == "__main__":
     # big files
-    # file_id = '1tArkcc43b4D7mpuZPikHShSRj7ZxOl2g'
-    # destination = 'valid.txt'
-    # download_file_from_google_drive(file_id, destination)
-    #
-    # file_id = '1D3exaccibg3AD0Y66QlRmNB8tRYIxBuU'
-    # destination = 'train.txt'
-    # download_file_from_google_drive(file_id, destination)
-    #
-    # file_id = '1WpmwWTcuaISBNuUzkGdK58DOUtMKuCP_'
-    # destination = 'test.txt'
-    # download_file_from_google_drive(file_id, destination)
-
-    # small files
-    file_id = '1qRf9e3ykSXDoGH7wm5_B_i9l3p2nnI29'
+    file_id = '1tArkcc43b4D7mpuZPikHShSRj7ZxOl2g'
     destination = 'valid.txt'
     download_file_from_google_drive(file_id, destination)
 
-    file_id = '1MJFB7FKrMKnuDuZDzqfilKKWcKtQKMA9'
+    file_id = '1D3exaccibg3AD0Y66QlRmNB8tRYIxBuU'
     destination = 'train.txt'
     download_file_from_google_drive(file_id, destination)
 
-    file_id = '1Ki7E3QNENPuXkJD5KC7gakHK-_A_3m7W'
+    file_id = '1WpmwWTcuaISBNuUzkGdK58DOUtMKuCP_'
     destination = 'test.txt'
     download_file_from_google_drive(file_id, destination)
+
+    # small files
+    # file_id = '1qRf9e3ykSXDoGH7wm5_B_i9l3p2nnI29'
+    # destination = 'valid.txt'
+    # download_file_from_google_drive(file_id, destination)
+    #
+    # file_id = '1MJFB7FKrMKnuDuZDzqfilKKWcKtQKMA9'
+    # destination = 'train.txt'
+    # download_file_from_google_drive(file_id, destination)
+    #
+    # file_id = '1Ki7E3QNENPuXkJD5KC7gakHK-_A_3m7W'
+    # destination = 'test.txt'
+    # download_file_from_google_drive(file_id, destination)
 

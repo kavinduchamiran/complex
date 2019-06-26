@@ -1,0 +1,7 @@
+[global]
+device = cuda
+
+[dnn]
+library_path=/usr/local/cuda/lib64
+include_path=/usr/local/cuda/include
+
